@@ -4,6 +4,12 @@
 (() => {
   const BTN_ID = "lde-grab-btn"; // intentionally plain; nothing scraper-obvious
   const FULL_PAGE = 25; // a full Sales Nav results page
+  // Title placeholder when the card shows a DIFFERENT company's role than the
+  // target — the person is at the target (that's why they matched the current-
+  // company filter), but the card exposes another of their concurrent roles.
+  const TITLE_UNKNOWN = "(title unknown — multiple roles)";
+
+  const norm = (s) => (s || "").replace(/\s+/g, " ").trim().toLowerCase();
 
   const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
   const jitter = (lo, hi) => lo + Math.random() * (hi - lo);
@@ -82,26 +88,61 @@
     return document.scrollingElement || document.documentElement;
   }
 
+  // A single flick: glide `distance` px (signed) with an ease-out curve — fast
+  // start, decelerating to rest, like releasing a swipe. Clamped to bounds.
+  function flick(container, distance, duration) {
+    return new Promise((resolve) => {
+      const start = container.scrollTop;
+      const max = container.scrollHeight - container.clientHeight;
+      const easeOut = (t) => 1 - Math.pow(1 - t, 3);
+      const t0 = performance.now();
+      const step = (now) => {
+        const p = Math.min((now - t0) / duration, 1);
+        container.scrollTop = Math.max(0, Math.min(start + distance * easeOut(p), max));
+        if (p < 1) requestAnimationFrame(step);
+        else resolve();
+      };
+      requestAnimationFrame(step);
+    });
+  }
+
   async function autoScroll() {
     const container = findScrollContainer();
     const countCards = () =>
       document.querySelectorAll('[data-anonymize="person-name"]').length;
-    let stable = 0;
+
     let last = 0;
-    // Scroll in viewport-sized steps (not straight to the bottom) so each chunk
-    // gets a chance to lazy-load, and wait long enough for it to render.
-    for (let i = 0; i < 80 && stable < 5; i++) {
-      const step = Math.max(300, container.clientHeight * 0.8);
-      container.scrollTop = Math.min(container.scrollTop + step, container.scrollHeight);
-      await sleep(jitter(1200, 1800)); // slower, jittered — give lazy-load time
+    let stableRounds = 0;
+    const deadline = performance.now() + 90000; // hard safety cap (90s)
+
+    // Start at the top, like a person resetting the list before reading down.
+    // Flick upward in a few strokes rather than snapping to 0.
+    while (container.scrollTop > 4 && performance.now() < deadline) {
+      await flick(container, -container.clientHeight * jitter(1.3, 2.2), jitter(300, 550));
+      await sleep(jitter(200, 500));
+    }
+    await sleep(jitter(300, 700)); // brief settle at the top before reading down
+
+    // Flick-based, like a real person: a downward swipe, a pause to read, repeat
+    // — occasionally a small scroll back up. Varied flick strength and pauses.
+    // The read-pauses double as lazy-load time. Stop when we're at the bottom
+    // and no new cards have appeared across a couple of flicks.
+
+    while (performance.now() < deadline) {
+      const vh = container.clientHeight;
+
+      // big downward flick of varied strength
+      await flick(container, vh * jitter(1.0, 1.8), jitter(350, 600));
+      // read-pause between flicks (also lets cards lazy-load)
+      await sleep(jitter(500, 1400));
+
       const count = countCards();
-      if (count === last) stable++; // no new cards this round
-      else stable = 0; // still loading — reset the patience counter
-      last = count;
-      // At the very bottom with no new cards for 2 rounds → done, skip the wait.
       const atBottom =
         container.scrollTop + container.clientHeight >= container.scrollHeight - 4;
-      if (atBottom && stable >= 2) break;
+      if (count === last && atBottom) stableRounds++;
+      else stableRounds = 0;
+      last = count;
+      if (atBottom && stableRounds >= 2) break;
     }
   }
 
@@ -160,16 +201,22 @@
         return;
       }
 
-      // Sanity checks — surface partial/failed extraction instead of silently
-      // under-collecting.
-      const missingTitle = cards.filter((c) => !c.title).length;
+      // A person can hold several current roles; the card may show a role at a
+      // company OTHER than the target. Keep the person (they're at the target),
+      // but flag the title as unknown rather than storing the wrong role.
+      let flagged = 0;
+      const contacts = cards.map((c) => {
+        const onTarget = c.companyPerCard && norm(c.companyPerCard) === norm(company);
+        const title = onTarget ? c.title : TITLE_UNKNOWN;
+        if (!onTarget) flagged++;
+        return { company, name: c.name, title };
+      });
+
+      // Sanity check — surface partial/failed extraction (not the flagged ones,
+      // which are expected).
       if (cards.length < FULL_PAGE - 5) {
         toast(`Only ${cards.length} cards extracted (expected ~${FULL_PAGE}). Selectors may have changed.`, "warn");
-      } else if (missingTitle) {
-        toast(`${missingTitle}/${cards.length} cards missing a title — partial selector rot?`, "warn");
       }
-
-      const contacts = cards.map((c) => ({ company, name: c.name, title: c.title }));
       btn.textContent = "Saving…";
       // If the extension was reloaded, this stale content script can't reach it.
       if (!chrome.runtime?.id) {
@@ -191,7 +238,8 @@
         const d = resp.data;
         const advanced = goToNextPage();
         const nextNote = advanced ? "\n→ next page" : "\n(last page)";
-        toast(`${company}\n+${d.added} added, ${d.skipped} skipped → ${d.target}${nextNote}`, "ok");
+        const flagNote = flagged ? `\n${flagged} title(s) flagged unknown` : "";
+        toast(`${company}\n+${d.added} added, ${d.skipped} skipped → ${d.target}${flagNote}${nextNote}`, "ok");
       });
     } catch (e) {
       toast(`Error: ${e}`, "err");
