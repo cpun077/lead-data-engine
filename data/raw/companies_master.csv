@@ -1,0 +1,362 @@
+category,rank,company,domain,status,notes
+Business Insurance Top 100 insurance brokerages,1,Marsh McLennan,marsh.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,2,Aon,aon.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,3,Arthur J. Gallagher & Co.,ajg.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,4,Willis Towers Watson,wtwco.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,5,Alliant Insurance Services,alliant.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,6,Brown & Brown,bbinsurance.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,7,Hub International,hubinternational.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,8,Acrisure,acrisure.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,9,Lockton,lockton.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,10,AssuredPartners,assuredpartners.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,11,USI Insurance Services,usi.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,12,BroadStreet Partners,broadstreetcorp.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,13,Risk Strategies (Accession Risk),risk-strategies.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,14,Alera Group,aleragroup.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,15,The Baldwin Group,baldwin.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,16,EPIC Insurance Brokers,epicbrokers.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,17,OneDigital,onedigital.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,18,Trucordia,trucordia.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,19,Higginbotham,higginbotham.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,20,IMA Financial Group,imacorp.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,21,Foundation Risk Partners,foundationrp.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,22,The Hilb Group,hilbgroup.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,23,World Insurance Associates,worldinsurance.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,24,High Street Insurance Partners,hsip.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,25,Patriot Growth Insurance Services,patriotgis.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,26,Leavitt Group,leavitt.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,27,Holmes Murphy & Associates,holmesmurphy.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,28,Automatic Data Processing Insurance Agency,adp.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,29,Cottingham & Butler,cottinghambutler.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,30,CBIZ Benefits & Insurance,cbiz.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,31,Keystone Agency Partners,keystoneagencypartners.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,32,Insurance Office of America,ioausa.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,33,Relation Insurance,relationinsurance.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,34,Cross Insurance,crossagency.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,35,CAC Group,cacgroup.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,36,Paychex Insurance Agency,paychex.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,37,Newfront,newfront.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,38,Unison Risk Advisors,unisonriskadvisors.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,39,Hylant Group,hylant.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,40,Heffernan Group,heffins.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,41,Insurica,insurica.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,42,The Liberty Company,libertycompany.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,43,Alkeme,alkemeins.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,44,Inszone Insurance Services,inszoneinsurance.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,45,Sunstar Insurance Group,sunstarinsurancegroup.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,46,TrueNorth Cos.,truenorthcompanies.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,47,M3 Insurance Solutions,m3ins.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,48,Lawley,lawleyinsurance.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,49,Marshall & Sterling,marshallsterling.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,50,Oakbridge Insurance Agency,oakbridgeinsurance.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,51,Towne Insurance Agency,towneinsurance.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,52,Sterling Seacrest Pritchard,sspins.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,53,Shepherd Insurance,shepherdins.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,54,Houchens Insurance,houchensinsurance.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,55,James A. Scott & Son (Scott Insurance),scottins.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,56,Insurors,insurors.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,57,Sterling & Sterling (SterlingRisk),sterlingrisk.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,58,Robertson Ryan Insurance,robertsonryan.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,59,Starkweather & Shepley Insurance Brokerage,starshep.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,60,"Bowen, Miclette & Britt Insurance Agency",bmbinc.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,61,Huntington Insurance,huntington.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,62,Moreton & Co.,moreton.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,63,MJ Cos.,mjinsurance.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,64,Superior Insurance Partners,superiorinsurance.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,65,M&O Agencies (The Mahoney Group),mahoneygroup.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,66,Christensen,christensengroup.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,67,First Insurance (FNIC),fnicgroup.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,68,Partners,thepartnersgroup.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,69,Crest Insurance,crestins.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,70,Signers National,signersnational.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,71,King Insurance Partners,king-insurance.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,72,Frost Insurance Agency,frostbank.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,73,Choice Financial,choicefinancialgroup.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,74,Panorama Insurance Associates,panorama360.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,75,LP Insurance Services,lpins.net,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,76,Tricor Insurance,tricorinsurance.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,77,Charles L. Crane Agency,craneagency.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,78,Ansay & Associates,ansay.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,79,Rich & Cartmill,rcins.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,80,Reliance Partners,reliancepartners.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,81,OneGroup,onegroup.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,82,R&R Insurance Services,myknowledgebroker.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,83,Kapnick Insurance,kapnick.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,84,Hotchkiss Insurance,hiallc.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,85,Ross & Yerger Insurance,rossandyerger.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,86,"Swingle, Collins & Associates",swinglecollins.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,87,Gibson Insurance Agency (Gibson),thegibsonedge.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,88,Buckner,buckner.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,89,Brightline Insurance,brightlineins.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,90,Unico,unicogroup.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,91,Pacwest Alliance Insurance Services,pacwestalliance.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,92,Plexus,plexusgroupe.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,93,Tompkins Insurance Agencies,tompkinsins.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,94,Cason,thecasongroup.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,95,Seubert & Associates,seubert.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,96,Daniel & Henry,danielandhenry.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,97,Engle-Hambright & Davies (EHD),ehd-ins.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,98,Commercial Insurance Associates,ciains.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,99,Morris & Garritano Insurance Agency,morrisgarritano.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+Business Insurance Top 100 insurance brokerages,100,Moody Insurance Agency,moodyins.com,ground_truth,Ground truth source; original ranking type: BI Top 100 U.S. Brokers
+AmLaw 100 law firms,1,Kirkland & Ellis,kirkland.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,2,Latham & Watkins,lw.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,3,DLA Piper,dlapiper.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,4,"Gibson, Dunn & Crutcher",gibsondunn.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,5,"Skadden, Arps, Slate, Meagher & Flom",skadden.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,6,Sidley Austin,sidley.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,7,Ropes & Gray,ropesgray.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,8,Baker McKenzie,bakermckenzie.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,9,White & Case,whitecase.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,10,Simpson Thacher & Bartlett,stblaw.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,11,"Morgan, Lewis & Bockius",morganlewis.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,12,Hogan Lovells,hoganlovells.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,13,"Paul, Weiss, Rifkind, Wharton & Garrison",paulweiss.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,14,Davis Polk & Wardwell,davispolk.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,15,Jones Day,jonesday.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,16,McDermott Will & Emery,mwe.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,17,Greenberg Traurig,gtlaw.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,18,Dentons,dentons.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,19,Norton Rose Fulbright,nortonrosefulbright.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,20,Quinn Emanuel Urquhart & Sullivan,quinnemanuel.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,21,Goodwin Procter,goodwinlaw.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,22,Paul Hastings,paulhastings.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,23,King & Spalding,kslaw.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,24,Cooley,cooley.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,25,Sullivan & Cromwell,sullcrom.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,26,Holland & Knight,hklaw.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,27,Mayer Brown,mayerbrown.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,28,Milbank,milbank.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,29,"Weil, Gotshal & Manges",weil.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,30,Covington & Burling,cov.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,31,Willkie Farr & Gallagher,willkie.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,32,Cleary Gottlieb Steen & Hamilton,clearygottlieb.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,33,Troutman Pepper Locke,troutman.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,34,"Orrick, Herrington & Sutcliffe",orrick.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,35,Debevoise & Plimpton,debevoise.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,36,Akin Gump Strauss Hauer & Feld,akingump.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,37,Wilson Sonsini Goodrich & Rosati,wsgr.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,38,Wilmer Cutler Pickering Hale and Dorr,wilmerhale.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,39,Dechert,dechert.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,40,Reed Smith,reedsmith.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,41,Proskauer Rose,proskauer.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,42,Morrison & Foerster,mofo.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,43,Foley & Lardner,foley.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,44,Alston & Bird,alston.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,45,Squire Patton Boggs,squirepattonboggs.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,46,"Wachtell, Lipton, Rosen & Katz",wlrk.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,47,Sheppard Mullin,sheppardmullin.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,48,K&L Gates,klgates.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,49,Winston & Strawn,winston.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,50,"Cravath, Swaine & Moore",cravath.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,51,Perkins Coie,perkinscoie.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,52,"Fried, Frank, Harris, Shriver & Jacobson",friedfrank.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,53,Arnold & Porter,arnoldporter.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,54,McGuireWoods,mcguirewoods.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,55,Polsinelli,polsinelli.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,56,Faegre Drinker,faegredrinker.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,57,O'Melveny & Myers,omm.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,58,Vinson & Elkins,velaw.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,59,BakerHostetler,bakerlaw.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,60,Nelson Mullins Riley & Scarborough,nelsonmullins.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,61,Taft Stettinius & Hollister,taftlaw.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,62,Littler Mendelson,littler.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,63,Seyfarth Shaw,seyfarth.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,64,Hunton Andrews Kurth,huntonak.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,65,Pillsbury Winthrop Shaw Pittman,pillsburylaw.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,66,Katten Muchin Rosenman,katten.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,67,Bryan Cave Leighton Paisner,bclplaw.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,68,Venable,venable.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,69,Fenwick & West,fenwick.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,70,Gordon Rees Scully Mansukhani,grsm.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,71,Fox Rothschild,foxrothschild.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,72,Lewis Brisbois Bisgaard & Smith,lewisbrisbois.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,73,Blank Rome,blankrome.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,74,"Fragomen, Del Rey, Bernsen & Loewy",fragomen.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,75,Baker Botts,bakerbotts.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,76,Womble Bond Dickinson,womblebonddickinson.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,77,Ogletree Deakins,ogletree.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,78,Barnes & Thornburg,btlaw.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,79,Jackson Lewis,jacksonlewis.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,80,Cozen O'Connor,cozen.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,81,Jenner & Block,jenner.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,82,Husch Blackwell,huschblackwell.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,83,Mintz,mintz.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,84,Duane Morris,duanemorris.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,85,Haynes and Boone,haynesboone.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,86,Crowell & Moring,crowell.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,87,Williams & Connolly,wc.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,88,Nixon Peabody,nixonpeabody.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,89,Ballard Spahr,ballardspahr.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,90,Davis Wright Tremaine,dwt.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,91,ArentFox Schiff,afslaw.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,92,Susman Godfrey,susmangodfrey.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,93,"Shook, Hardy & Bacon",shb.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,94,Wilson Elser,wilsonelser.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,95,Kilpatrick Townsend,kilpatricktownsend.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,96,Akerman,akerman.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,97,"Cadwalader, Wickersham & Taft",cadwalader.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,98,Steptoe,steptoe.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,99,Dorsey & Whitney,dorsey.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+AmLaw 100 law firms,100,Bradley Arant Boult Cummings,bradley.com,ground_truth,Ground truth source; original ranking type: AmLaw 100
+Top 50 government relations firms by lobbying revenue,1,Ballard Partners,ballardpartners.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,2,Brownstein Hyatt Farber Schreck,bhfs.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,3,BGR Government Affairs,bgrdc.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,4,Akin Gump Strauss Hauer & Feld,akingump.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,5,Cornerstone Government Affairs,cgadc.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,6,Holland & Knight,hklaw.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,7,Miller Strategies,millerstrategies.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,8,Invariant,invariantgr.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,9,Thorn Run Partners,thornrun.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,10,Cassidy & Associates,cassidy.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,11,Mehlman Consulting,mehlmanconsulting.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,12,Crossroads Strategies,crshq.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,13,Continental Strategy,continentalstrategy.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,14,Forbes Tate Partners,forbes-tate.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,15,Mercury Public Affairs,mercuryllc.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,16,Capitol Counsel,capitolcounsel.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,17,S-3 Group,s3publicaffairs.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,18,Tiber Creek Group,tibercreekgroup.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,19,Squire Patton Boggs,squirepattonboggs.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,20,Strategic Marketing Innovations,smidc.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,21,Checkmate Government Relations,checkmategr.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,22,K&L Gates,klgates.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,23,Alpine Group,alpinegroup.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,24,Van Scoyoc Associates,vsadc.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,25,"Tarplin, Downs & Young (TDY @ FGS)",fgsglobal.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,26,Williams & Jensen,williamsandjensen.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,27,CGCN Group,cgcn.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,28,Avōq,avoq.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,29,Mindset Advocacy,mindsetdc.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,30,Vogel Group,vogelgroupdc.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,31,Hogan Lovells,hoganlovells.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,32,Venture Government Strategies,venturegov.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,33,Michael Best Strategies,michaelbeststrategies.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,34,Capitol Tax Partners,capitoltax.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,35,Monument Advocacy,monumentadvocacy.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,36,Venable,venable.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,37,DLA Piper,dlapiper.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,38,Todd Strategy Group,toddstrategy.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,39,Alston & Bird,alston.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,40,Harbinger Strategies,harbingerdc.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,41,Venn Strategies,vennstrategies.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,42,Kountoupes Denham Carr & Reid,kdcrpartners.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,43,J.A. Green & Co.,jagreenco.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,44,OGR (Ogilvy Government Relations),ogrdc.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,45,Arnold & Porter,arnoldporter.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,46,Ferguson Group,thefergusongroup.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,47,Capitol Hill Consulting Group,capitolhillcg.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,48,Foley & Lardner,foley.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,49,Klein/Johnson Group,kleinjohnson.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Top 50 government relations firms by lobbying revenue,50,Washington Tax & Public Policy Group,wtppg.com,ground_truth,Ground truth source; original ranking type: BGOV Top Lobbying Firm
+Tier 1 strategy consulting firms,1,McKinsey & Company,mckinsey.com,ground_truth,Ground truth source; original ranking type: Strategy Consulting; original rank: Tier 1 (MBB)
+Tier 1 strategy consulting firms,2,Boston Consulting Group (BCG),bcg.com,ground_truth,Ground truth source; original ranking type: Strategy Consulting; original rank: Tier 1 (MBB)
+Tier 1 strategy consulting firms,3,Bain & Company,bain.com,ground_truth,Ground truth source; original ranking type: Strategy Consulting; original rank: Tier 1 (MBB)
+Tier 2 strategy consulting firms,1,Oliver Wyman,oliverwyman.com,ground_truth,Ground truth source; original ranking type: Strategy Consulting; original rank: Tier 2
+Tier 2 strategy consulting firms,2,Roland Berger,rolandberger.com,ground_truth,Ground truth source; original ranking type: Strategy Consulting; original rank: Tier 2
+Tier 2 strategy consulting firms,3,Kearney,kearney.com,ground_truth,Ground truth source; original ranking type: Strategy Consulting; original rank: Tier 2
+Tier 2 strategy consulting firms,4,L.E.K. Consulting,lek.com,ground_truth,Ground truth source; original ranking type: Strategy Consulting; original rank: Tier 2
+Tier 2 strategy consulting firms,5,Strategy& (PwC),strategyand.pwc.com,ground_truth,Ground truth source; original ranking type: Strategy Consulting; original rank: Tier 2
+Tier 2 strategy consulting firms,6,EY-Parthenon,parthenon.ey.com,ground_truth,Ground truth source; original ranking type: Strategy Consulting; original rank: Tier 2
+Tier 2 strategy consulting firms,9,Alvarez & Marsal,alvarezandmarsal.com,ground_truth,Ground truth source; original ranking type: Strategy Consulting; original rank: Tier 2
+Tier 2 strategy consulting firms,10,OC&C Strategy Consultants,occstrategy.com,ground_truth,Ground truth source; original ranking type: Strategy Consulting; original rank: Tier 2
+Accounting Today Top 100 accounting firms,1,Deloitte,deloitte.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,2,PwC,pwc.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,3,Ernst & Young,ey.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,4,KPMG,kpmg.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,5,RSM,rsmus.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,6,Baker Tilly,bakertilly.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,7,BDO USA,bdo.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,8,CBIZ,cbiz.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,9,Grant Thornton,grantthornton.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,10,Forvis Mazars,forvismazars.us,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,11,CLA,claconnect.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,12,Crowe,crowe.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,13,Eisner Advisory Group,eisneramper.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,14,Plante Moran,plantemoran.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,15,CohnReznick,cohnreznick.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,16,Citrin Cooperman,citrincooperman.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,17,Cherry Bekaert,cherrybekaert.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,18,Eide Bailly,eidebailly.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,19,Armanino,armanino.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,20,Aprio,aprio.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,21,Wipfli,wipfli.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,22,Withum,withum.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,23,"Carr, Riggs & Ingram",cricpa.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,24,Ascend,ascendtogether.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,25,PKF O’Connor Davies,pkfod.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,26,UHY,uhy-us.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,27,Sikich,sikich.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,28,Crete Professionals,cretepa.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,29,Weaver,weaver.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,30,Kearney & Co.,kearneyco.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,31,HCVT,hcvt.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,32,Novogradac & Co.,novoco.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,33,BPM,bpm.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,34,Whitley Penn,whitleypenn.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,35,LBMC,lbmc.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,36,RubinBrown,rubinbrown.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,37,Doeren Mayhew,doeren.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,38,"Frank, Rimerman + Co.",frankrimerman.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,39,Rehmann,rehmann.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,40,Cohen & Co.,cohencpa.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,41,Platform Accounting Group,platformaccounting.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,42,"Katz, Sapper & Miller",ksmcpa.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,43,The Bonadio Group,bonadio.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,44,BerryDunn,berrydunn.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,45,Frazier & Deeter,frazierdeeter.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,46,Schellman,schellman.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,47,Elliott Davis,elliottdavis.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,48,Sorren,sorren.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,49,"Hill, Barth & King",hbkcpa.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,50,Richey May,richeymay.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,51,Warren Averett,warrenaverett.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,52,Miller Cooper & Co.,millercooper.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,53,Grassi,grassicpas.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,54,Springline,springlineadvisory.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,55,Kaufman Rossin,kaufmanrossin.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,56,Anchin,anchin.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,57,Blue & Co.,blueandco.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,58,RKL,rklcpa.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,59,Your Part-Time Controller,yptc.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,60,Sax,saxllp.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,61,Schneider Downs,schneiderdowns.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,62,Prager Metis,pragermetis.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,63,SC&H,schgroup.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,64,Pinion,pinionglobal.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,65,Bennett Thrasher,btcpa.net,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,66,Smith + Howard,smith-howard.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,67,Mauldin & Jenkins,mjcpa.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,68,SingerLewak,singerlewak.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,69,Dean Dorton,deandorton.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,70,Clark Schaefer Hackett,cshco.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,71,Wolf & Co.,wolfandco.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,72,Aldrich,aldrichadvisors.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,73,Lutz,lutz.us,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,74,FGMK,fgmk.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,75,Archer Lewis,archerlewis.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,76,Anders,anderscpa.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,77,PBMares,pbmares.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,78,Rea,reacpa.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,79,"Brown, Edwards & Co.",becpas.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,80,Cain Watters & Associates,cainwatters.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,81,KLR,kahnlitwin.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,82,HoganTaylor,hogantaylor.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,83,BMSS,bmss.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,84,Sensiba,sensiba.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,85,PYA,pyapc.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,86,Gursey Schneider,gursey.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,87,Smith Leonard,smith-leonard.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,88,Clark Nuber,clarknuber.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,89,GBQ,gbq.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,90,HHM CPAs,hhmcpas.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,91,Nichols Cauley,nicholscauley.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,92,Miller Kaplan,millerkaplan.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,93,AAFCPAs,aafcpa.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,94,Prosperity Partners,prosperityllc.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,95,Wiss & Co.,wiss.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,96,Haynie & Co.,hayniecpas.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,97,REDW,redw.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,98,Baker Newman Noyes,bnncpa.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,99,Kemper CPA Group,kempercpa.com,source_pdf_rotated_table,
+Accounting Today Top 100 accounting firms,100,YHB,yhbcpa.com,source_pdf_rotated_table,
