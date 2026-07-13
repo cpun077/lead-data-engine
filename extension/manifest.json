@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Lead Data Engine — Sales Nav grabber",
+  "version": "0.1.0",
+  "description": "Grab the current LinkedIn Sales Navigator results page into the local lead-data-engine CSV.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/sales/search/people*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["http://127.0.0.1:8765/*"]
+}

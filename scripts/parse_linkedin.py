@@ -111,8 +111,7 @@ def append_to_csv(contacts, path):
         writer.writeheader()
         writer.writerows(rows)
 
-    print(f"{os.path.basename(path)}: +{added} added, {skipped} skipped "
-          f"(already present), {len(rows)} total", file=sys.stderr)
+    return added, skipped, len(rows)
 
 
 def main():
@@ -142,7 +141,9 @@ def main():
     if json_only:
         print(json.dumps(contacts, ensure_ascii=False, indent=2))
     else:
-        append_to_csv(contacts, csv_path)
+        added, skipped, total = append_to_csv(contacts, csv_path)
+        print(f"{os.path.basename(csv_path)}: +{added} added, {skipped} skipped "
+              f"(already present), {total} total", file=sys.stderr)
         # Only recount the companies this paste actually touched.
         touched = {c["company"] for c in contacts}
         recount_contacts.update_counts(only=touched)
