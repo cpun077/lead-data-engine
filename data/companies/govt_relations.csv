@@ -1,51 +1,51 @@
-category,rank,company,domain,contact_count
-Top 50 government relations firms by lobbying revenue,1,Ballard Partners,ballardpartners.com,0
-Top 50 government relations firms by lobbying revenue,2,Brownstein Hyatt Farber Schreck,bhfs.com,0
-Top 50 government relations firms by lobbying revenue,3,BGR Government Affairs,bgrdc.com,0
-Top 50 government relations firms by lobbying revenue,4,Akin Gump Strauss Hauer & Feld,akingump.com,0
-Top 50 government relations firms by lobbying revenue,5,Cornerstone Government Affairs,cgadc.com,0
-Top 50 government relations firms by lobbying revenue,6,Holland & Knight,hklaw.com,0
-Top 50 government relations firms by lobbying revenue,7,Miller Strategies,millerstrategies.com,0
-Top 50 government relations firms by lobbying revenue,8,Invariant,invariantgr.com,0
-Top 50 government relations firms by lobbying revenue,9,Thorn Run Partners,thornrun.com,0
-Top 50 government relations firms by lobbying revenue,10,Cassidy & Associates,cassidy.com,0
-Top 50 government relations firms by lobbying revenue,11,Mehlman Consulting,mehlmanconsulting.com,0
-Top 50 government relations firms by lobbying revenue,12,Crossroads Strategies,crshq.com,0
-Top 50 government relations firms by lobbying revenue,13,Continental Strategy,continentalstrategy.com,0
-Top 50 government relations firms by lobbying revenue,14,Forbes Tate Partners,forbes-tate.com,0
-Top 50 government relations firms by lobbying revenue,15,Mercury Public Affairs,mercuryllc.com,0
-Top 50 government relations firms by lobbying revenue,16,Capitol Counsel,capitolcounsel.com,0
-Top 50 government relations firms by lobbying revenue,17,S-3 Group,s3publicaffairs.com,0
-Top 50 government relations firms by lobbying revenue,18,Tiber Creek Group,tibercreekgroup.com,0
-Top 50 government relations firms by lobbying revenue,19,Squire Patton Boggs,squirepattonboggs.com,0
-Top 50 government relations firms by lobbying revenue,20,Strategic Marketing Innovations,smidc.com,0
-Top 50 government relations firms by lobbying revenue,21,Checkmate Government Relations,checkmategr.com,0
-Top 50 government relations firms by lobbying revenue,22,K&L Gates,klgates.com,0
-Top 50 government relations firms by lobbying revenue,23,Alpine Group,alpinegroup.com,0
-Top 50 government relations firms by lobbying revenue,24,Van Scoyoc Associates,vsadc.com,0
-Top 50 government relations firms by lobbying revenue,25,"Tarplin, Downs & Young (TDY @ FGS)",fgsglobal.com,0
-Top 50 government relations firms by lobbying revenue,26,Williams & Jensen,williamsandjensen.com,0
-Top 50 government relations firms by lobbying revenue,27,CGCN Group,cgcn.com,0
-Top 50 government relations firms by lobbying revenue,28,Avōq,avoq.com,0
-Top 50 government relations firms by lobbying revenue,29,Mindset Advocacy,mindsetdc.com,0
-Top 50 government relations firms by lobbying revenue,30,Vogel Group,vogelgroupdc.com,0
-Top 50 government relations firms by lobbying revenue,31,Hogan Lovells,hoganlovells.com,0
-Top 50 government relations firms by lobbying revenue,32,Venture Government Strategies,venturegov.com,0
-Top 50 government relations firms by lobbying revenue,33,Michael Best Strategies,michaelbeststrategies.com,0
-Top 50 government relations firms by lobbying revenue,34,Capitol Tax Partners,capitoltax.com,0
-Top 50 government relations firms by lobbying revenue,35,Monument Advocacy,monumentadvocacy.com,0
-Top 50 government relations firms by lobbying revenue,36,Venable,venable.com,0
-Top 50 government relations firms by lobbying revenue,37,DLA Piper,dlapiper.com,0
-Top 50 government relations firms by lobbying revenue,38,Todd Strategy Group,toddstrategy.com,0
-Top 50 government relations firms by lobbying revenue,39,Alston & Bird,alston.com,0
-Top 50 government relations firms by lobbying revenue,40,Harbinger Strategies,harbingerdc.com,0
-Top 50 government relations firms by lobbying revenue,41,Venn Strategies,vennstrategies.com,0
-Top 50 government relations firms by lobbying revenue,42,Kountoupes Denham Carr & Reid,kdcrpartners.com,0
-Top 50 government relations firms by lobbying revenue,43,J.A. Green & Co.,jagreenco.com,0
-Top 50 government relations firms by lobbying revenue,44,OGR (Ogilvy Government Relations),ogrdc.com,0
-Top 50 government relations firms by lobbying revenue,45,Arnold & Porter,arnoldporter.com,0
-Top 50 government relations firms by lobbying revenue,46,Ferguson Group,thefergusongroup.com,0
-Top 50 government relations firms by lobbying revenue,47,Capitol Hill Consulting Group,capitolhillcg.com,0
-Top 50 government relations firms by lobbying revenue,48,Foley & Lardner,foley.com,0
-Top 50 government relations firms by lobbying revenue,49,Klein/Johnson Group,kleinjohnson.com,0
-Top 50 government relations firms by lobbying revenue,50,Washington Tax & Public Policy Group,wtppg.com,0
+category,rank,company,segment,domain,contact_count
+Top 50 government relations firms by lobbying revenue,1,Ballard Partners,Pure-Play Access,ballardpartners.com,0
+Top 50 government relations firms by lobbying revenue,2,Brownstein Hyatt Farber Schreck,Law Firm,bhfs.com,0
+Top 50 government relations firms by lobbying revenue,3,BGR Government Affairs,Pure-Play Access,bgrdc.com,0
+Top 50 government relations firms by lobbying revenue,4,Akin Gump Strauss Hauer & Feld,Law Firm,akingump.com,0
+Top 50 government relations firms by lobbying revenue,5,Cornerstone Government Affairs,Pure-Play Access,cgadc.com,0
+Top 50 government relations firms by lobbying revenue,6,Holland & Knight,Law Firm,hklaw.com,0
+Top 50 government relations firms by lobbying revenue,7,Miller Strategies,Pure-Play Access,millerstrategies.com,0
+Top 50 government relations firms by lobbying revenue,8,Invariant,Public Affairs,invariantgr.com,0
+Top 50 government relations firms by lobbying revenue,9,Thorn Run Partners,Pure-Play Access,thornrun.com,0
+Top 50 government relations firms by lobbying revenue,10,Cassidy & Associates,Pure-Play Access,cassidy.com,0
+Top 50 government relations firms by lobbying revenue,11,Mehlman Consulting,Pure-Play Access,mehlmanconsulting.com,0
+Top 50 government relations firms by lobbying revenue,12,Crossroads Strategies,Pure-Play Access,crshq.com,0
+Top 50 government relations firms by lobbying revenue,13,Continental Strategy,Pure-Play Access,continentalstrategy.com,0
+Top 50 government relations firms by lobbying revenue,14,Forbes Tate Partners,Public Affairs,forbes-tate.com,0
+Top 50 government relations firms by lobbying revenue,15,Mercury Public Affairs,Public Affairs,mercuryllc.com,0
+Top 50 government relations firms by lobbying revenue,16,Capitol Counsel,Pure-Play Access,capitolcounsel.com,0
+Top 50 government relations firms by lobbying revenue,17,S-3 Group,Public Affairs,s3publicaffairs.com,0
+Top 50 government relations firms by lobbying revenue,18,Tiber Creek Group,Pure-Play Access,tibercreekgroup.com,0
+Top 50 government relations firms by lobbying revenue,19,Squire Patton Boggs,Law Firm,squirepattonboggs.com,0
+Top 50 government relations firms by lobbying revenue,20,Strategic Marketing Innovations,Specialized Boutique,smidc.com,0
+Top 50 government relations firms by lobbying revenue,21,Checkmate Government Relations,Pure-Play Access,checkmategr.com,0
+Top 50 government relations firms by lobbying revenue,22,K&L Gates,Law Firm,klgates.com,0
+Top 50 government relations firms by lobbying revenue,23,Alpine Group,Pure-Play Access,alpinegroup.com,0
+Top 50 government relations firms by lobbying revenue,24,Van Scoyoc Associates,Pure-Play Access,vsadc.com,0
+Top 50 government relations firms by lobbying revenue,25,"Tarplin, Downs & Young (TDY @ FGS)",Specialized Boutique,fgsglobal.com,0
+Top 50 government relations firms by lobbying revenue,26,Williams & Jensen,Pure-Play Access,williamsandjensen.com,0
+Top 50 government relations firms by lobbying revenue,27,CGCN Group,Pure-Play Access,cgcn.com,0
+Top 50 government relations firms by lobbying revenue,28,Avōq,Public Affairs,avoq.com,0
+Top 50 government relations firms by lobbying revenue,29,Mindset Advocacy,Pure-Play Access,mindsetdc.com,0
+Top 50 government relations firms by lobbying revenue,30,Vogel Group,Public Affairs,vogelgroupdc.com,0
+Top 50 government relations firms by lobbying revenue,31,Hogan Lovells,Law Firm,hoganlovells.com,0
+Top 50 government relations firms by lobbying revenue,32,Venture Government Strategies,Pure-Play Access,venturegov.com,0
+Top 50 government relations firms by lobbying revenue,33,Michael Best Strategies,Law Firm,michaelbeststrategies.com,0
+Top 50 government relations firms by lobbying revenue,34,Capitol Tax Partners,Specialized Boutique,capitoltax.com,0
+Top 50 government relations firms by lobbying revenue,35,Monument Advocacy,Public Affairs,monumentadvocacy.com,0
+Top 50 government relations firms by lobbying revenue,36,Venable,Law Firm,venable.com,0
+Top 50 government relations firms by lobbying revenue,37,DLA Piper,Law Firm,dlapiper.com,0
+Top 50 government relations firms by lobbying revenue,38,Todd Strategy Group,Specialized Boutique,toddstrategy.com,0
+Top 50 government relations firms by lobbying revenue,39,Alston & Bird,Law Firm,alston.com,0
+Top 50 government relations firms by lobbying revenue,40,Harbinger Strategies,Pure-Play Access,harbingerdc.com,0
+Top 50 government relations firms by lobbying revenue,41,Venn Strategies,Public Affairs,vennstrategies.com,0
+Top 50 government relations firms by lobbying revenue,42,Kountoupes Denham Carr & Reid,Pure-Play Access,kdcrpartners.com,0
+Top 50 government relations firms by lobbying revenue,43,J.A. Green & Co.,Specialized Boutique,jagreenco.com,0
+Top 50 government relations firms by lobbying revenue,44,OGR (Ogilvy Government Relations),Public Affairs,ogrdc.com,0
+Top 50 government relations firms by lobbying revenue,45,Arnold & Porter,Law Firm,arnoldporter.com,0
+Top 50 government relations firms by lobbying revenue,46,Ferguson Group,Specialized Boutique,thefergusongroup.com,0
+Top 50 government relations firms by lobbying revenue,47,Capitol Hill Consulting Group,Pure-Play Access,capitolhillcg.com,0
+Top 50 government relations firms by lobbying revenue,48,Foley & Lardner,Law Firm,foley.com,0
+Top 50 government relations firms by lobbying revenue,49,Klein/Johnson Group,Pure-Play Access,kleinjohnson.com,0
+Top 50 government relations firms by lobbying revenue,50,Washington Tax & Public Policy Group,Specialized Boutique,wtppg.com,0

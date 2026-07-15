@@ -1,146 +1,81 @@
 # lead-data-engine
 
-Company lists and their GTM / revenue-generation contacts, stored as CSVs.
+Company lists + their GTM/revenue contacts, as CSVs.
 
-- `data/companies/<industry>.csv` — one row per company: `category, rank, company, domain, contact_count`
-- `data/contacts/<industry>.csv` — GTM people, one row per person: `company, name, title`
-- A contact links to its company by **exact `company` name** (this drives routing, dedup, and `contact_count`).
+- `data/companies/<industry>.csv` — `category, rank, company, [segment,] domain, contact_count`
+- `data/contacts/<industry>.csv` — `company, name, title`
+- Contact → company link is by **exact `company` name** (drives routing, dedup, counts)
+- Column defs: `schema/companies.md`, `schema/contacts.md`
 
-Full column definitions: `schema/companies.md`, `schema/contacts.md`.
-
----
-
-## One-time setup
+## Setup
 
 ```bash
-python3 -m venv .venv          # create the local virtualenv
-source .venv/bin/activate      # activate it (do this each new terminal)
+python3 -m venv .venv
+source .venv/bin/activate    # each new terminal
 ```
 
-No dependencies to install — the scripts use only the Python standard library.
+Stdlib only — nothing to install.
 
----
+## Collect contacts
 
-## Collecting contacts (the normal workflow)
+1. **Server** (once per session): `python scripts/serve.py` — leave running (127.0.0.1:8765)
+2. **Extension** (once): `chrome://extensions` → Developer mode → Load unpacked → `extension/`
+   - After any extension reload, **refresh the LinkedIn tab**
+3. **Search**: Sales Nav → add company to an account list → Lead search → account-list filter + a query from `queries.md` → run
+4. **Grab**: click **Grab page → CSV** (bottom-right). It auto-scrolls, extracts, saves (dedup), recounts, and auto-advances. Repeat until toast says `(last page)`.
 
-You collect contacts one company at a time from LinkedIn Sales Navigator, using
-the Chrome extension + a local server. The extension grabs each results page and
-the server writes it to the right CSV.
+Data lands in `data/contacts/<industry>.csv` automatically.
 
-### Step 1 — Start the server (once per session)
+## Company classification (auto-detected)
 
-In the repo, with the venv active:
+- **Single-company search** (Current-company filter set): all contacts stamped with that company; different-role cards kept but title-flagged `(title unknown — multiple roles): …`
+- **Multi-company search** (account list, no company filter): each contact keeps its own card company; nothing flagged
+
+⚠️ Matching is **exact**. A card company ≠ list name (`A.T. Kearney` vs `Kearney`) falls to the default CSV uncounted. Fix: scrape single-company, or align the list name to LinkedIn's brand first. (Fuzzy matching was removed — caused collisions like Kearney ↔ Kearney & Co.)
+
+## Check data
 
 ```bash
-python scripts/serve.py
+grep -c , data/contacts/consulting_tier2.csv     # rows incl. header
+grep "OC&C" data/companies/consulting_tier2.csv  # a count
+python scripts/recount_contacts.py               # rebuild all counts
 ```
-
-Leave this terminal running. It listens on `http://127.0.0.1:8765` and prints
-each save.
-
-### Step 2 — Load the Chrome extension (once ever)
-
-1. Open `chrome://extensions`
-2. Turn on **Developer mode** (top-right toggle)
-3. Click **Load unpacked** and select the `extension/` folder
-
-You only redo this if you change the extension code — and after any reload,
-**refresh the LinkedIn tab.**
-
-### Step 3 — Set up your Sales Navigator search (once per company)
-
-1. In Sales Nav, find the company under **Accounts** and add it to your account list.
-2. Go to **Lead** search, add that account list as a filter.
-3. Add your job-title query, e.g.:
-   ```
-   ("Partner" OR "Managing Partner" OR "Associate Partner" OR "Director" OR "Managing Director" OR "Vice President" OR "VP")
-   AND NOT ("Assistant" OR "HR" OR "Talent" OR "IT" OR "Operations" OR "Marketing" OR "Recruiter" OR "Research" OR "Consultant" OR "Intern")
-   ```
-4. Run the search so a results page is showing (`.../sales/search/people?...`).
-
-### Step 4 — Grab the pages
-
-On the results page, click the blue **Grab page → CSV** button (bottom-right).
-Each click:
-
-1. Auto-scrolls to load all ~25 leads on the page
-2. Extracts each lead (name, title) and stamps the company
-3. Saves them (skipping duplicates) and updates `contact_count`
-4. **Auto-advances to the next page**
-
-Then just **click Grab again** on the new page. Repeat until the toast says
-`(last page)`.
-
-The toast after each grab shows:
-```
-<Company>
-+N added, M skipped → <file>.csv
-→ next page        (or "(last page)")
-```
-
-That's it — the data lands in `data/contacts/<industry>.csv` automatically.
-
----
-
-## Checking your data
-
-```bash
-grep -c , data/contacts/consulting_tier2.csv       # contacts collected (incl. header)
-grep "OC&C" data/companies/consulting_tier2.csv    # a company's contact_count
-python scripts/recount_contacts.py                 # rebuild all contact_counts
-```
-
----
 
 ## Troubleshooting
 
 | Symptom | Fix |
 |---|---|
-| Button does nothing / "Is the local server running?" | Start `python scripts/serve.py` |
-| "Extension context lost — refresh this page" | Reload extension → **refresh the LinkedIn tab** |
-| "Only N cards extracted" / "missing a title" warning | LinkedIn changed its DOM — the `data-anonymize` selectors in `extension/content.js` need updating |
-| Scrolled too fast / missed leads | Already tuned to load slowly; if still short, increase the delay in `autoScroll()` |
-| Contacts went to the wrong CSV | The company name didn't exactly match any `data/companies/*.csv` row, so it fell back to the default. Fix the company name or add it to a list. |
+| Button dead / "server running?" | start `python scripts/serve.py` |
+| "Extension context lost" | reload extension → refresh tab |
+| "Only N cards" / "missing title" | LinkedIn DOM changed → update `data-anonymize` selectors in `content.js` |
+| Missed leads (scrolled fast) | raise the delay in `autoScroll()` |
+| Wrong CSV | company name didn't match a list row → see exact-match note above |
 
----
+## Manual paste (fallback)
 
-## Manual paste (fallback, no extension)
-
-If the extension breaks, you can still parse a page by hand: select all on the
-results page (Cmd+A), copy, then:
+Cmd+A the results page, copy, then:
 
 ```bash
 cd scripts
-pbpaste | python parse_linkedin.py                 # append + recount
-pbpaste | python parse_linkedin.py --json          # preview only, no writes
-pbpaste | python parse_linkedin.py --csv <path>    # write to a specific CSV
+pbpaste | python parse_linkedin.py            # append + recount
+pbpaste | python parse_linkedin.py --json     # preview, no write
+pbpaste | python parse_linkedin.py --csv <p>  # specific CSV
 ```
-
-Default destination is `DEFAULT_CSV` at the top of `scripts/parse_linkedin.py`.
-
----
 
 ## Safety
 
-Automating Sales Navigator violates LinkedIn's User Agreement and risks account
-throttling or restriction. This tooling limits (does not eliminate) that risk by
-running inside your own logged-in browser, reading the page DOM only, scrolling
-at a human-like pace, and requiring you to click **Grab** for every page. Keep
-your volume modest and human-paced.
-
----
+Automating Sales Nav breaks LinkedIn's ToS (risk: throttle → ban). Mitigated by: own browser + session, DOM-read only, human-paced scroll, manual Grab per page. Keep volume modest.
 
 ## Layout
 
 ```
-data/
-  companies/   one CSV per industry list — one row per company
-  contacts/    one CSV per industry, mirroring companies/ — GTM people
-  raw/         original combined source dump
-extension/     Chrome extension (grabs Sales Nav pages)  — see extension/README.md
-schema/        column definitions for companies and contacts
-scripts/       serve.py (receiver), parse_linkedin.py (parser), recount_contacts.py
+data/companies/   one CSV per industry — one row per company
+data/contacts/    mirrors companies/ — GTM people
+data/raw/         original combined dump
+extension/        Chrome extension — see extension/README.md
+schema/           column defs
+scripts/          serve.py · parse_linkedin.py · recount_contacts.py
+queries.md        Sales Nav title queries by segment
 ```
 
-"GTM / revenue-generation" = sales, marketing, bizdev, partnerships, customer
-success, and the revenue leadership above them. See `schema/contacts.md`.
+GTM/revenue = sales, marketing, bizdev, partnerships, CS, and the revenue leadership above them.

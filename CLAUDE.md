@@ -4,6 +4,11 @@
 - Keep responses concise; avoid exceeding ~500 output tokens unless long-form is explicitly requested.
 - Prefer bullet summaries over prose walls.
 
+## Code style
+- Always find ways to write less code — prefer the smallest change that works.
+- Never write comments or docstrings.
+- Never create backup files (e.g. `.bak`); rely on git instead.
+
 ## Project
 Company lists + their GTM/revenue contacts, stored as per-industry CSVs.
 

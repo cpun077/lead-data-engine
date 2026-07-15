@@ -1,101 +1,101 @@
-category,rank,company,domain,contact_count
-AmLaw 100 law firms,1,Kirkland & Ellis,kirkland.com,0
-AmLaw 100 law firms,2,Latham & Watkins,lw.com,0
-AmLaw 100 law firms,3,DLA Piper,dlapiper.com,0
-AmLaw 100 law firms,4,"Gibson, Dunn & Crutcher",gibsondunn.com,0
-AmLaw 100 law firms,5,"Skadden, Arps, Slate, Meagher & Flom",skadden.com,0
-AmLaw 100 law firms,6,Sidley Austin,sidley.com,0
-AmLaw 100 law firms,7,Ropes & Gray,ropesgray.com,0
-AmLaw 100 law firms,8,Baker McKenzie,bakermckenzie.com,0
-AmLaw 100 law firms,9,White & Case,whitecase.com,0
-AmLaw 100 law firms,10,Simpson Thacher & Bartlett,stblaw.com,0
-AmLaw 100 law firms,11,"Morgan, Lewis & Bockius",morganlewis.com,0
-AmLaw 100 law firms,12,Hogan Lovells,hoganlovells.com,0
-AmLaw 100 law firms,13,"Paul, Weiss, Rifkind, Wharton & Garrison",paulweiss.com,0
-AmLaw 100 law firms,14,Davis Polk & Wardwell,davispolk.com,0
-AmLaw 100 law firms,15,Jones Day,jonesday.com,0
-AmLaw 100 law firms,16,McDermott Will & Emery,mwe.com,0
-AmLaw 100 law firms,17,Greenberg Traurig,gtlaw.com,0
-AmLaw 100 law firms,18,Dentons,dentons.com,0
-AmLaw 100 law firms,19,Norton Rose Fulbright,nortonrosefulbright.com,0
-AmLaw 100 law firms,20,Quinn Emanuel Urquhart & Sullivan,quinnemanuel.com,0
-AmLaw 100 law firms,21,Goodwin Procter,goodwinlaw.com,0
-AmLaw 100 law firms,22,Paul Hastings,paulhastings.com,0
-AmLaw 100 law firms,23,King & Spalding,kslaw.com,0
-AmLaw 100 law firms,24,Cooley,cooley.com,0
-AmLaw 100 law firms,25,Sullivan & Cromwell,sullcrom.com,0
-AmLaw 100 law firms,26,Holland & Knight,hklaw.com,0
-AmLaw 100 law firms,27,Mayer Brown,mayerbrown.com,0
-AmLaw 100 law firms,28,Milbank,milbank.com,0
-AmLaw 100 law firms,29,"Weil, Gotshal & Manges",weil.com,0
-AmLaw 100 law firms,30,Covington & Burling,cov.com,0
-AmLaw 100 law firms,31,Willkie Farr & Gallagher,willkie.com,0
-AmLaw 100 law firms,32,Cleary Gottlieb Steen & Hamilton,clearygottlieb.com,0
-AmLaw 100 law firms,33,Troutman Pepper Locke,troutman.com,0
-AmLaw 100 law firms,34,"Orrick, Herrington & Sutcliffe",orrick.com,0
-AmLaw 100 law firms,35,Debevoise & Plimpton,debevoise.com,0
-AmLaw 100 law firms,36,Akin Gump Strauss Hauer & Feld,akingump.com,0
-AmLaw 100 law firms,37,Wilson Sonsini Goodrich & Rosati,wsgr.com,0
-AmLaw 100 law firms,38,Wilmer Cutler Pickering Hale and Dorr,wilmerhale.com,0
-AmLaw 100 law firms,39,Dechert,dechert.com,0
-AmLaw 100 law firms,40,Reed Smith,reedsmith.com,0
-AmLaw 100 law firms,41,Proskauer Rose,proskauer.com,0
-AmLaw 100 law firms,42,Morrison & Foerster,mofo.com,0
-AmLaw 100 law firms,43,Foley & Lardner,foley.com,0
-AmLaw 100 law firms,44,Alston & Bird,alston.com,0
-AmLaw 100 law firms,45,Squire Patton Boggs,squirepattonboggs.com,0
-AmLaw 100 law firms,46,"Wachtell, Lipton, Rosen & Katz",wlrk.com,0
-AmLaw 100 law firms,47,Sheppard Mullin,sheppardmullin.com,0
-AmLaw 100 law firms,48,K&L Gates,klgates.com,0
-AmLaw 100 law firms,49,Winston & Strawn,winston.com,0
-AmLaw 100 law firms,50,"Cravath, Swaine & Moore",cravath.com,0
-AmLaw 100 law firms,51,Perkins Coie,perkinscoie.com,0
-AmLaw 100 law firms,52,"Fried, Frank, Harris, Shriver & Jacobson",friedfrank.com,0
-AmLaw 100 law firms,53,Arnold & Porter,arnoldporter.com,0
-AmLaw 100 law firms,54,McGuireWoods,mcguirewoods.com,0
-AmLaw 100 law firms,55,Polsinelli,polsinelli.com,0
-AmLaw 100 law firms,56,Faegre Drinker,faegredrinker.com,0
-AmLaw 100 law firms,57,O'Melveny & Myers,omm.com,0
-AmLaw 100 law firms,58,Vinson & Elkins,velaw.com,0
-AmLaw 100 law firms,59,BakerHostetler,bakerlaw.com,0
-AmLaw 100 law firms,60,Nelson Mullins Riley & Scarborough,nelsonmullins.com,0
-AmLaw 100 law firms,61,Taft Stettinius & Hollister,taftlaw.com,0
-AmLaw 100 law firms,62,Littler Mendelson,littler.com,0
-AmLaw 100 law firms,63,Seyfarth Shaw,seyfarth.com,0
-AmLaw 100 law firms,64,Hunton Andrews Kurth,huntonak.com,0
-AmLaw 100 law firms,65,Pillsbury Winthrop Shaw Pittman,pillsburylaw.com,0
-AmLaw 100 law firms,66,Katten Muchin Rosenman,katten.com,0
-AmLaw 100 law firms,67,Bryan Cave Leighton Paisner,bclplaw.com,0
-AmLaw 100 law firms,68,Venable,venable.com,0
-AmLaw 100 law firms,69,Fenwick & West,fenwick.com,0
-AmLaw 100 law firms,70,Gordon Rees Scully Mansukhani,grsm.com,0
-AmLaw 100 law firms,71,Fox Rothschild,foxrothschild.com,0
-AmLaw 100 law firms,72,Lewis Brisbois Bisgaard & Smith,lewisbrisbois.com,0
-AmLaw 100 law firms,73,Blank Rome,blankrome.com,0
-AmLaw 100 law firms,74,"Fragomen, Del Rey, Bernsen & Loewy",fragomen.com,0
-AmLaw 100 law firms,75,Baker Botts,bakerbotts.com,0
-AmLaw 100 law firms,76,Womble Bond Dickinson,womblebonddickinson.com,0
-AmLaw 100 law firms,77,Ogletree Deakins,ogletree.com,0
-AmLaw 100 law firms,78,Barnes & Thornburg,btlaw.com,0
-AmLaw 100 law firms,79,Jackson Lewis,jacksonlewis.com,0
-AmLaw 100 law firms,80,Cozen O'Connor,cozen.com,0
-AmLaw 100 law firms,81,Jenner & Block,jenner.com,0
-AmLaw 100 law firms,82,Husch Blackwell,huschblackwell.com,0
-AmLaw 100 law firms,83,Mintz,mintz.com,0
-AmLaw 100 law firms,84,Duane Morris,duanemorris.com,0
-AmLaw 100 law firms,85,Haynes and Boone,haynesboone.com,0
-AmLaw 100 law firms,86,Crowell & Moring,crowell.com,0
-AmLaw 100 law firms,87,Williams & Connolly,wc.com,0
-AmLaw 100 law firms,88,Nixon Peabody,nixonpeabody.com,0
-AmLaw 100 law firms,89,Ballard Spahr,ballardspahr.com,0
-AmLaw 100 law firms,90,Davis Wright Tremaine,dwt.com,0
-AmLaw 100 law firms,91,ArentFox Schiff,afslaw.com,0
-AmLaw 100 law firms,92,Susman Godfrey,susmangodfrey.com,0
-AmLaw 100 law firms,93,"Shook, Hardy & Bacon",shb.com,0
-AmLaw 100 law firms,94,Wilson Elser,wilsonelser.com,0
-AmLaw 100 law firms,95,Kilpatrick Townsend,kilpatricktownsend.com,0
-AmLaw 100 law firms,96,Akerman,akerman.com,0
-AmLaw 100 law firms,97,"Cadwalader, Wickersham & Taft",cadwalader.com,0
-AmLaw 100 law firms,98,Steptoe,steptoe.com,0
-AmLaw 100 law firms,99,Dorsey & Whitney,dorsey.com,0
-AmLaw 100 law firms,100,Bradley Arant Boult Cummings,bradley.com,0
+category,rank,company,segment,domain,contact_count
+AmLaw 100 law firms,1,Kirkland & Ellis,Combined (Hub-and-Spoke),kirkland.com,0
+AmLaw 100 law firms,2,Latham & Watkins,Combined (Hub-and-Spoke),lw.com,0
+AmLaw 100 law firms,3,DLA Piper,Combined (Hub-and-Spoke),dlapiper.com,0
+AmLaw 100 law firms,4,"Gibson, Dunn & Crutcher",Partner/Lawyer-Led,gibsondunn.com,0
+AmLaw 100 law firms,5,"Skadden, Arps, Slate, Meagher & Flom",Combined (Hub-and-Spoke),skadden.com,0
+AmLaw 100 law firms,6,Sidley Austin,Combined (Hub-and-Spoke),sidley.com,0
+AmLaw 100 law firms,7,Ropes & Gray,Central Team,ropesgray.com,0
+AmLaw 100 law firms,8,Baker McKenzie,Combined (Hub-and-Spoke),bakermckenzie.com,0
+AmLaw 100 law firms,9,White & Case,Combined (Hub-and-Spoke),whitecase.com,0
+AmLaw 100 law firms,10,Simpson Thacher & Bartlett,Partner/Lawyer-Led,stblaw.com,0
+AmLaw 100 law firms,11,"Morgan, Lewis & Bockius",Combined (Hub-and-Spoke),morganlewis.com,0
+AmLaw 100 law firms,12,Hogan Lovells,Combined (Hub-and-Spoke),hoganlovells.com,0
+AmLaw 100 law firms,13,"Paul, Weiss, Rifkind, Wharton & Garrison",Partner/Lawyer-Led,paulweiss.com,0
+AmLaw 100 law firms,14,Davis Polk & Wardwell,Partner/Lawyer-Led,davispolk.com,0
+AmLaw 100 law firms,15,Jones Day,Combined (Hub-and-Spoke),jonesday.com,0
+AmLaw 100 law firms,16,McDermott Will & Emery,Central Team,mwe.com,0
+AmLaw 100 law firms,17,Greenberg Traurig,Combined (Hub-and-Spoke),gtlaw.com,0
+AmLaw 100 law firms,18,Dentons,Combined (Hub-and-Spoke),dentons.com,0
+AmLaw 100 law firms,19,Norton Rose Fulbright,Combined (Hub-and-Spoke),nortonrosefulbright.com,0
+AmLaw 100 law firms,20,Quinn Emanuel Urquhart & Sullivan,Partner/Lawyer-Led,quinnemanuel.com,0
+AmLaw 100 law firms,21,Goodwin Procter,Industry Vertical,goodwinlaw.com,0
+AmLaw 100 law firms,22,Paul Hastings,Central Team,paulhastings.com,0
+AmLaw 100 law firms,23,King & Spalding,Central Team,kslaw.com,0
+AmLaw 100 law firms,24,Cooley,Industry Vertical,cooley.com,0
+AmLaw 100 law firms,25,Sullivan & Cromwell,Partner/Lawyer-Led,sullcrom.com,0
+AmLaw 100 law firms,26,Holland & Knight,Combined (Hub-and-Spoke),hklaw.com,0
+AmLaw 100 law firms,27,Mayer Brown,Combined (Hub-and-Spoke),mayerbrown.com,0
+AmLaw 100 law firms,28,Milbank,Partner/Lawyer-Led,milbank.com,0
+AmLaw 100 law firms,29,"Weil, Gotshal & Manges",Partner/Lawyer-Led,weil.com,0
+AmLaw 100 law firms,30,Covington & Burling,Industry Vertical,cov.com,0
+AmLaw 100 law firms,31,Willkie Farr & Gallagher,Central Team,willkie.com,0
+AmLaw 100 law firms,32,Cleary Gottlieb Steen & Hamilton,Partner/Lawyer-Led,clearygottlieb.com,0
+AmLaw 100 law firms,33,Troutman Pepper Locke,Combined (Hub-and-Spoke),troutman.com,0
+AmLaw 100 law firms,34,"Orrick, Herrington & Sutcliffe",Industry Vertical,orrick.com,0
+AmLaw 100 law firms,35,Debevoise & Plimpton,Partner/Lawyer-Led,debevoise.com,0
+AmLaw 100 law firms,36,Akin Gump Strauss Hauer & Feld,Central Team,akingump.com,0
+AmLaw 100 law firms,37,Wilson Sonsini Goodrich & Rosati,Industry Vertical,wsgr.com,0
+AmLaw 100 law firms,38,Wilmer Cutler Pickering Hale and Dorr,Central Team,wilmerhale.com,0
+AmLaw 100 law firms,39,Dechert,Central Team,dechert.com,0
+AmLaw 100 law firms,40,Reed Smith,Combined (Hub-and-Spoke),reedsmith.com,0
+AmLaw 100 law firms,41,Proskauer Rose,Central Team,proskauer.com,0
+AmLaw 100 law firms,42,Morrison & Foerster,Industry Vertical,mofo.com,0
+AmLaw 100 law firms,43,Foley & Lardner,Central Team,foley.com,0
+AmLaw 100 law firms,44,Alston & Bird,Central Team,alston.com,0
+AmLaw 100 law firms,45,Squire Patton Boggs,Combined (Hub-and-Spoke),squirepattonboggs.com,0
+AmLaw 100 law firms,46,"Wachtell, Lipton, Rosen & Katz",Partner/Lawyer-Led,wlrk.com,0
+AmLaw 100 law firms,47,Sheppard Mullin,Central Team,sheppardmullin.com,0
+AmLaw 100 law firms,48,K&L Gates,Combined (Hub-and-Spoke),klgates.com,0
+AmLaw 100 law firms,49,Winston & Strawn,Central Team,winston.com,0
+AmLaw 100 law firms,50,"Cravath, Swaine & Moore",Partner/Lawyer-Led,cravath.com,0
+AmLaw 100 law firms,51,Perkins Coie,Industry Vertical,perkinscoie.com,0
+AmLaw 100 law firms,52,"Fried, Frank, Harris, Shriver & Jacobson",Partner/Lawyer-Led,friedfrank.com,0
+AmLaw 100 law firms,53,Arnold & Porter,Central Team,arnoldporter.com,0
+AmLaw 100 law firms,54,McGuireWoods,Central Team,mcguirewoods.com,0
+AmLaw 100 law firms,55,Polsinelli,Central Team,polsinelli.com,0
+AmLaw 100 law firms,56,Faegre Drinker,Central Team,faegredrinker.com,0
+AmLaw 100 law firms,57,O'Melveny & Myers,Central Team,omm.com,0
+AmLaw 100 law firms,58,Vinson & Elkins,Central Team,velaw.com,0
+AmLaw 100 law firms,59,BakerHostetler,Central Team,bakerlaw.com,0
+AmLaw 100 law firms,60,Nelson Mullins Riley & Scarborough,Central Team,nelsonmullins.com,0
+AmLaw 100 law firms,61,Taft Stettinius & Hollister,Central Team,taftlaw.com,0
+AmLaw 100 law firms,62,Littler Mendelson,Industry Vertical,littler.com,0
+AmLaw 100 law firms,63,Seyfarth Shaw,Industry Vertical,seyfarth.com,0
+AmLaw 100 law firms,64,Hunton Andrews Kurth,Central Team,huntonak.com,0
+AmLaw 100 law firms,65,Pillsbury Winthrop Shaw Pittman,Central Team,pillsburylaw.com,0
+AmLaw 100 law firms,66,Katten Muchin Rosenman,Central Team,katten.com,0
+AmLaw 100 law firms,67,Bryan Cave Leighton Paisner,Combined (Hub-and-Spoke),bclplaw.com,0
+AmLaw 100 law firms,68,Venable,Central Team,venable.com,0
+AmLaw 100 law firms,69,Fenwick & West,Industry Vertical,fenwick.com,0
+AmLaw 100 law firms,70,Gordon Rees Scully Mansukhani,Central Team,grsm.com,0
+AmLaw 100 law firms,71,Fox Rothschild,Central Team,foxrothschild.com,0
+AmLaw 100 law firms,72,Lewis Brisbois Bisgaard & Smith,Combined (Hub-and-Spoke),lewisbrisbois.com,0
+AmLaw 100 law firms,73,Blank Rome,Central Team,blankrome.com,0
+AmLaw 100 law firms,74,"Fragomen, Del Rey, Bernsen & Loewy",Central Team,fragomen.com,0
+AmLaw 100 law firms,75,Baker Botts,Central Team,bakerbotts.com,0
+AmLaw 100 law firms,76,Womble Bond Dickinson,Combined (Hub-and-Spoke),womblebonddickinson.com,0
+AmLaw 100 law firms,77,Ogletree Deakins,Industry Vertical,ogletree.com,0
+AmLaw 100 law firms,78,Barnes & Thornburg,Central Team,btlaw.com,0
+AmLaw 100 law firms,79,Jackson Lewis,Industry Vertical,jacksonlewis.com,0
+AmLaw 100 law firms,80,Cozen O'Connor,Central Team,cozen.com,0
+AmLaw 100 law firms,81,Jenner & Block,Central Team,jenner.com,0
+AmLaw 100 law firms,82,Husch Blackwell,Industry Vertical,huschblackwell.com,0
+AmLaw 100 law firms,83,Mintz,Industry Vertical,mintz.com,0
+AmLaw 100 law firms,84,Duane Morris,Central Team,duanemorris.com,0
+AmLaw 100 law firms,85,Haynes and Boone,Central Team,haynesboone.com,0
+AmLaw 100 law firms,86,Crowell & Moring,Central Team,crowell.com,0
+AmLaw 100 law firms,87,Williams & Connolly,Partner/Lawyer-Led,wc.com,0
+AmLaw 100 law firms,88,Nixon Peabody,Central Team,nixonpeabody.com,0
+AmLaw 100 law firms,89,Ballard Spahr,Central Team,ballardspahr.com,0
+AmLaw 100 law firms,90,Davis Wright Tremaine,Central Team,dwt.com,0
+AmLaw 100 law firms,91,ArentFox Schiff,Central Team,afslaw.com,0
+AmLaw 100 law firms,92,Susman Godfrey,Partner/Lawyer-Led,susmangodfrey.com,0
+AmLaw 100 law firms,93,"Shook, Hardy & Bacon",Central Team,shb.com,0
+AmLaw 100 law firms,94,Wilson Elser,Central Team,wilsonelser.com,0
+AmLaw 100 law firms,95,Kilpatrick Townsend,Central Team,kilpatricktownsend.com,0
+AmLaw 100 law firms,96,Akerman,Central Team,akerman.com,0
+AmLaw 100 law firms,97,"Cadwalader, Wickersham & Taft",Partner/Lawyer-Led,cadwalader.com,0
+AmLaw 100 law firms,98,Steptoe,Central Team,steptoe.com,0
+AmLaw 100 law firms,99,Dorsey & Whitney,Central Team,dorsey.com,0
+AmLaw 100 law firms,100,Bradley Arant Boult Cummings,Central Team,bradley.com,0
