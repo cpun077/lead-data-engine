@@ -1,43 +1,47 @@
 const SHEET_ID = '1RIyon84yA7ArN0miI-O0dnKQmAQbblbnrH6_-nrHa_Q'
-const INDUSTRY = 'consulting'
-const RANKING = 'Tier 1 and Tier 2'
-
 const SUBJECT = `Survey of your peers`;
 const SURVEY_PAGE = 'overbase.app/survey'
-const FORMS = {
-  'gov':'app.youform.com/forms/fzbwyu0j',
-  'accounting':'app.youform.com/forms/yndcsdzi',
-  'consulting':'app.youform.com/forms/ag4g8wda',
-  'business insurance':'app.youform.com/forms/cmjzeg1v',
-  'law':'app.youform.com/forms/ufpjpl7c',
+const INDUSTRIES = {
+  'gov':{'form':'app.youform.com/forms/fzbwyu0j', 'ranking':'Top 50 lobbying revenue', 'name':'government relations'},
+  'acc':{'form':'app.youform.com/forms/yndcsdzi', 'ranking':'Accounting Today Top 100', 'name':'accounting'},
+  't1':{'form':'app.youform.com/forms/ag4g8wda', 'ranking':'Tier 1 and Tier 2', 'name':'consulting'},
+  't2':{'form':'app.youform.com/forms/ag4g8wda', 'ranking':'Tier 1 and Tier 2', 'name':'consulting'},
+  'insur':{'form':'app.youform.com/forms/cmjzeg1v', 'ranking':'Business Insurance Top 100', 'name':'business insurance'},
+  'law':{'form':'app.youform.com/forms/ufpjpl7c', 'ranking':'AmLaw 100', 'name':'law'},
 }
 
+// CONFIGURATIONS HERE
+const SHEET_NAME = 't2' // Choose sheet to draft emails for
+const config = INDUSTRIES[SHEET_NAME]
+const sheet = SpreadsheetApp.openById(SHEET_ID).getSheetByName(`${SHEET_NAME}`);
+const rows = sheet.getDataRange().getValues();
+
+const START_IDX = 1 // Choose sheet row to start
+const END_IDX = rows.length-1 // Choose sheet row to end
 
 // Initial Email
 const FIRST_BODY = firstName => `Hi ${firstName},
 
-Overbase is starting our annual survey of ${RANKING} marketers.
+Overbase is starting our annual survey of ${config['ranking']} marketers.
 
-Every year we find the most innovative ${INDUSTRY} firm CMOs based on this survey.
+Every year, we find the most innovative ${config['name']} firm CMOs based on this survey.
 
 Do you have 1 minute to anonymously answer 2 questions?
-${FORMS[INDUSTRY]}`;
+${config['form']}`;
 const HTML_FIRST_BODY = firstName =>
   FIRST_BODY(firstName)
     .replace(
-      `survey of ${RANKING} marketers`,
-      `<a href="http://${SURVEY_PAGE}">survey of ${RANKING} marketers</a>`
+      `survey of ${config['ranking']} marketers`,
+      `<a href="http://${SURVEY_PAGE}">survey of ${config['ranking']} marketers</a>`
     )
     .replace(
-      FORMS[INDUSTRY],
-      `<a href="https://${FORMS[INDUSTRY]}">${FORMS[INDUSTRY]}</a>`
+      config['form'],
+      `<a href="https://${config['form']}">${config['form']}</a>`
     )
     .replace(/\n/g, '<br>');
 
 function firstDraft() {
-  const sheet = SpreadsheetApp.openById(SHEET_ID).getSheetByName('Sheet1');
-  const rows = sheet.getDataRange().getValues();
-  for (let i = 1; i < /*rows.length*/25; i++) {
+  for (let i = START_IDX; i < END_IDX+1; i++) {
     const [company, name, title, email, status, threadID] = rows[i];
     if ((status && status.startsWith('drafted')) || !email) continue;
     const firstName = String(name).trim().split(/\s+/)[0];
@@ -56,7 +60,7 @@ const SECOND_BODY = firstName => `Overbase is a Silicon Valley startup backed by
 +1,200 marketers answered our survey last year.
 
 Anonymously answer in 1 minute
-${FORMS[INDUSTRY]}
+${config['form']}
 
 Or read about the survey here.`;
 const HTML_SECOND_BODY = firstName =>
@@ -66,8 +70,8 @@ const HTML_SECOND_BODY = firstName =>
       '<a href="https://en.wikipedia.org/wiki/Reid_Hoffman">Reid Hoffman, founder of LinkedIn.</a>'
     )
     .replace(
-      FORMS[INDUSTRY],
-      `<a href="https://${FORMS[INDUSTRY]}">${FORMS[INDUSTRY]}</a>`
+      config['form'],
+      `<a href="https://${config['form']}">${config['form']}</a>`
     )
     .replace(
       'here.',
@@ -76,16 +80,11 @@ const HTML_SECOND_BODY = firstName =>
     .replace(/\n/g, '<br>');
 
 function secondDraft() {
-  const sheet = SpreadsheetApp.openById(SHEET_ID).getSheetByName('Sheet1');
-  const rows = sheet.getDataRange().getValues();
-  for (let i = 1; i < /*rows.length*/25; i++) {
+  for (let i = START_IDX; i < END_IDX+1; i++) {
     const [company, name, title, email, status, threadID] = rows[i];
     if (status !== 'drafted_1' || !email) continue;
     const firstName = String(name).trim().split(/\s+/)[0];
 
-    // const threads = GmailApp.search(`in:sent to:${email} subject:"${SUBJECT}"`);
-    // if (threads.length === 0) continue;
-    // const thread = threads[0];
     if (!threadID) continue;
     const thread = GmailApp.getThreadById(threadID);
     if (!thread) continue;
@@ -99,24 +98,22 @@ function secondDraft() {
 }
 
 // Second Followup
-const THIRD_BODY = firstName => `Only marketers at ${RANKING} firms are surveyed.
+const THIRD_BODY = firstName => `Only marketers at ${config['ranking']} firms are surveyed.
 
 And we determine who the most innovative CMOs are entirely based on survey responses.
 
 It takes 1 minute to anonymously answer
-${FORMS[INDUSTRY]}`;
+${config['form']}`;
 const HTML_THIRD_BODY = firstName =>
   THIRD_BODY(firstName)
     .replace(
-      FORMS[INDUSTRY],
-      `<a href="https://${FORMS[INDUSTRY]}">${FORMS[INDUSTRY]}</a>`
+      config['form'],
+      `<a href="https://${config['form']}">${config['form']}</a>`
     )
     .replace(/\n/g, '<br>');
 
 function thirdDraft() {
-  const sheet = SpreadsheetApp.openById(SHEET_ID).getSheetByName('Sheet1');
-  const rows = sheet.getDataRange().getValues();
-  for (let i = 1; i < /*rows.length*/25; i++) {
+  for (let i = START_IDX; i < END_IDX+1; i++) {
     const [company, name, title, email, status, threadID] = rows[i];
     if (status !== 'drafted_2' || !email) continue;
     const firstName = String(name).trim().split(/\s+/)[0];
