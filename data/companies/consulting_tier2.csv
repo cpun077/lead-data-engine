@@ -1,9 +1,9 @@
-category,rank,company,segment,domain,contact_count
-Tier 2 strategy consulting firms,1,Oliver Wyman,partnership,oliverwyman.com,0
-Tier 2 strategy consulting firms,2,Roland Berger,partnership,rolandberger.com,0
-Tier 2 strategy consulting firms,3,Kearney,partnership,kearney.com,187
-Tier 2 strategy consulting firms,4,L.E.K. Consulting,partnership,lek.com,77
-Tier 2 strategy consulting firms,5,Strategy&,big_4,strategyand.pwc.com,122
-Tier 2 strategy consulting firms,6,EY-Parthenon,big_4,parthenon.ey.com,256
-Tier 2 strategy consulting firms,7,Alvarez & Marsal,restructuring,alvarezandmarsal.com,312
-Tier 2 strategy consulting firms,8,OC&C Strategy Consultants,partnership,occstrategy.com,231
+category,rank,company,segment,domain,email_format,contact_count
+Tier 2 strategy consulting firms,1,Oliver Wyman,partnership,oliverwyman.com,{first}.{last}@oliverwyman.com,43
+Tier 2 strategy consulting firms,2,Roland Berger,partnership,rolandberger.com,{first}.{last}@rolandberger.com,29
+Tier 2 strategy consulting firms,3,Kearney,partnership,kearney.com,{first}.{last}@kearney.com,32
+Tier 2 strategy consulting firms,4,L.E.K. Consulting,partnership,lek.com,{f}.{last}@lek.com,18
+Tier 2 strategy consulting firms,5,Strategy&,big_4,strategyand.pwc.com,{first}.{last}@pwc.com,0
+Tier 2 strategy consulting firms,6,EY-Parthenon,big_4,parthenon.ey.com,{first}.{last}@parthenon.ey.com,22
+Tier 2 strategy consulting firms,7,Alvarez & Marsal,restructuring,alvarezandmarsal.com,{f}{last}@alvarezandmarsal.com,22
+Tier 2 strategy consulting firms,8,OC&C Strategy Consultants,partnership,occstrategy.com,{first}.{last}@occstrategy.com,3

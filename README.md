@@ -1,81 +1,93 @@
 # lead-data-engine
 
-Company lists + their GTM/revenue contacts, as CSVs.
+Build and maintain a database of GTM/marketing contacts at target companies across industries. Two collection methods: automated web scraping with AI evaluation, and semi-automated LinkedIn Sales Nav extraction via Chrome extension.
 
-- `data/companies/<industry>.csv` — `category, rank, company, [segment,] domain, contact_count`
-- `data/contacts/<industry>.csv` — `company, name, title`
-- Contact → company link is by **exact `company` name** (drives routing, dedup, counts)
-- Column defs: `schema/companies.md`, `schema/contacts.md`
+## Layout
+
+```
+data/companies/<industry>.csv   — company rosters (category, rank, company, domain, contact_count)
+data/contacts/<industry>.csv    — GTM contacts (company, name, title)
+data/golden.jsonl               — rubric regression test cases
+extension/                      — MV3 Chrome extension (see extension/README.md)
+schema/                         — column definitions
+scripts/                        — all automation
+```
+
+Industries: `accounting`, `amlaw`, `business_insurance`, `consulting_tier1`, `consulting_tier2`, `govt_relations`
+
+Contact-to-company link is by **exact `company` name**. This drives routing, dedup (`company` + `name`), and `contact_count`.
+
+GTM = marketing, BD, communications, PR, events, brand, content, CRM, audience/engagement growth, and revenue leadership above them.
 
 ## Setup
 
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate    # each new terminal
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
-Stdlib only — nothing to install.
+## Method 1: Scrape + Evaluate (primary)
 
-## Collect contacts
+Searches DuckDuckGo for LinkedIn profiles matching a target company, then uses Claude to judge each result against a rubric.
 
-1. **Server** (once per session): `python scripts/serve.py` — leave running (127.0.0.1:8765)
-2. **Extension** (once): `chrome://extensions` → Developer mode → Load unpacked → `extension/`
-   - After any extension reload, **refresh the LinkedIn tab**
-3. **Search**: Sales Nav → add company to an account list → Lead search → account-list filter + a query from `queries.md` → run
-4. **Grab**: click **Grab page → CSV** (bottom-right). It auto-scrolls, extracts, saves (dedup), recounts, and auto-advances. Repeat until toast says `(last page)`.
+### Quick start
 
-Data lands in `data/contacts/<industry>.csv` automatically.
+First time: `playwright install chromium`
 
-## Company classification (auto-detected)
+In Claude Code, type `/scrape-leads`. It will ask for the company name and page depth, then runs the full pipeline (query → scrape → merge → evaluate → review unsure). To adjudicate unsure candidates later, type `/review-leads`.
 
-- **Single-company search** (Current-company filter set): all contacts stamped with that company; different-role cards kept but title-flagged `(title unknown — multiple roles): …`
-- **Multi-company search** (account list, no company filter): each contact keeps its own card company; nothing flagged
+### Scripts
 
-⚠️ Matching is **exact**. A card company ≠ list name (`A.T. Kearney` vs `Kearney`) falls to the default CSV uncounted. Fix: scrape single-company, or align the list name to LinkedIn's brand first. (Fuzzy matching was removed — caused collisions like Kearney ↔ Kearney & Co.)
+| Script | Purpose |
+|--------|---------|
+| `query_builder.py` | Generates DuckDuckGo `site:linkedin.com/in` queries with GTM keyword expansion |
+| `duckduckgo_search.py` | Scrapes DDG results. `--batch` for file of queries, `--pages N` for depth, `--show` to open browser (fixes challenges) |
+| `merge_results.py` | Deduplicates and merges per-query JSON files into one |
+| `evaluate_leads.py` | Two-stage filter: fast rules (blocked titles, wrong company) then Claude judge per `rubric.md`. Outputs: accepted → CSV, unsure → `data/review_queue.json` |
+| `recount_contacts.py` | Rebuilds `contact_count` in all company CSVs from contact CSVs |
 
-## Check data
+### Evaluate options
 
 ```bash
-grep -c , data/contacts/consulting_tier2.csv     # rows incl. header
-grep "OC&C" data/companies/consulting_tier2.csv  # a count
-python scripts/recount_contacts.py               # rebuild all counts
+# Check rubric regression against golden set
+python scripts/evaluate_leads.py --check
+
+# Apply human decisions from review queue
+python scripts/evaluate_leads.py --apply-decisions
 ```
 
-## Troubleshooting
+### Review queue
 
-| Symptom | Fix |
-|---|---|
-| Button dead / "server running?" | start `python scripts/serve.py` |
-| "Extension context lost" | reload extension → refresh tab |
-| "Only N cards" / "missing title" | LinkedIn DOM changed → update `data-anonymize` selectors in `content.js` |
-| Missed leads (scrolled fast) | raise the delay in `autoScroll()` |
-| Wrong CSV | company name didn't match a list row → see exact-match note above |
+Candidates the judge marks "unsure" land in `data/review_queue.json`. Adjudicate them with the `/review-leads` Claude Code skill, or manually edit the file and run `--apply-decisions`.
 
-## Manual paste (fallback)
+## Method 2: Chrome Extension (Sales Nav)
 
-Cmd+A the results page, copy, then:
+Semi-automated extraction from LinkedIn Sales Navigator search results.
+
+### Setup
+
+1. Start local server: `python scripts/serve.py` (runs on 127.0.0.1:8765)
+2. Load extension: `chrome://extensions` → Developer mode → Load unpacked → `extension/`
+3. After any extension reload, refresh the LinkedIn tab
+
+### Usage
+
+1. Sales Nav → company or account list → Lead search → filter by title queries from `queries.md`
+2. Click **Grab page → CSV** (bottom-right overlay)
+3. Extension auto-scrolls, extracts, dedup-appends to the correct contacts CSV, recounts, and auto-advances to next page
+4. Repeat until toast says `(last page)`
+
+### Fallback (manual paste)
 
 ```bash
-cd scripts
-pbpaste | python parse_linkedin.py            # append + recount
-pbpaste | python parse_linkedin.py --json     # preview, no write
-pbpaste | python parse_linkedin.py --csv <p>  # specific CSV
+pbpaste | python scripts/parse_linkedin.py            # append + recount
+pbpaste | python scripts/parse_linkedin.py --json     # preview only
+pbpaste | python scripts/parse_linkedin.py --csv <p>  # target specific CSV
 ```
 
-## Safety
+## Risks
 
-Automating Sales Nav breaks LinkedIn's ToS (risk: throttle → ban). Mitigated by: own browser + session, DOM-read only, human-paced scroll, manual Grab per page. Keep volume modest.
+Automating Sales Nav breaks LinkedIn ToS (throttle → ban). Mitigated by: own browser session, DOM-read only, human-paced scroll, manual trigger per page, modest volume.
 
-## Layout
-
-```
-data/companies/   one CSV per industry — one row per company
-data/contacts/    mirrors companies/ — GTM people
-data/raw/         original combined dump
-extension/        Chrome extension — see extension/README.md
-schema/           column defs
-scripts/          serve.py · parse_linkedin.py · recount_contacts.py
-queries.md        Sales Nav title queries by segment
-```
-
-GTM/revenue = sales, marketing, bizdev, partnerships, CS, and the revenue leadership above them.
+DuckDuckGo scraping may trigger challenge pages. Fix: run `python scripts/duckduckgo_search.py --show "any query"` to solve the challenge in a visible browser, then resume the batch.

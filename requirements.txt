@@ -2,3 +2,4 @@
 # The current scripts use only the Python standard library — no packages needed yet.
 # Add dependencies here as the project grows (e.g. pandas, requests), then run:
 #   .venv/bin/pip install -r requirements.txt
+playwright

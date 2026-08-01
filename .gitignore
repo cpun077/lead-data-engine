@@ -10,3 +10,8 @@ __pycache__/
 .DS_Store
 
 data/contacts/*
+.gsearch_profile/
+.ddg_profile/
+data/review_queue.json
+data/eval_log.jsonl
+CLAUDE.md

@@ -6,9 +6,35 @@ import sys
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(SCRIPT_DIR)
-DEFAULT_CSV = os.path.join(REPO_ROOT, "data", "contacts", "consulting_tier2.csv")
+DEFAULT_CSV = os.path.join(REPO_ROOT, "data", "contacts", "consulting_tier1.csv")
 FIELDS = ["company", "name", "title"]
-GOTO = re.compile(r"Go to (.+?)['’‘]s? profile")
+GOTO = re.compile(r"Go to (.+?)[‘’’]s? profile")
+
+
+def find_company_csv(company):
+    """Find which industry CSV contains the company. Prefers amlaw > consulting > others."""
+    companies_dir = os.path.join(REPO_ROOT, "data", "companies")
+    priority_order = ["amlaw", "consulting_tier1", "consulting_tier2", "govt_relations"]
+    found = {}
+
+    for csv_file in os.listdir(companies_dir):
+        if not csv_file.endswith(".csv"):
+            continue
+        path = os.path.join(companies_dir, csv_file)
+        with open(path, newline="") as f:
+            for row in csv.DictReader(f):
+                if row.get("company", "").strip() == company:
+                    industry = os.path.splitext(csv_file)[0]
+                    found[industry] = os.path.join(REPO_ROOT, "data", "contacts", f"{industry}.csv")
+                    break
+
+    # Return in priority order
+    for priority in priority_order:
+        if priority in found:
+            return found[priority]
+
+    # Return any remaining match
+    return next(iter(found.values())) if found else None
 
 sys.path.insert(0, SCRIPT_DIR)
 import recount_contacts
@@ -55,6 +81,7 @@ def append_to_csv(contacts, path):
     if os.path.exists(path):
         with open(path, newline="") as f:
             for row in csv.DictReader(f):
+                row = {k: v for k, v in row.items() if k is not None}
                 rows.append(row)
                 existing.add((row["company"].strip(), row["name"].strip()))
 
@@ -71,7 +98,15 @@ def append_to_csv(contacts, path):
     with open(path, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=FIELDS)
         w.writeheader()
-        w.writerows(rows)
+        for i, row in enumerate(rows):
+            try:
+                w.writerow(row)
+            except ValueError as e:
+                import json
+                print(f"ERROR in row {i}: {e}", file=__import__('sys').stderr)
+                print(f"Row keys: {list(row.keys())}", file=__import__('sys').stderr)
+                print(f"Row: {json.dumps({k: str(v) if v is not None else 'None' for k, v in row.items()}, ensure_ascii=False)}", file=__import__('sys').stderr)
+                raise
     return added, skipped, len(rows)
 
 

@@ -1,18 +1,18 @@
 category,rank,company,segment,domain,contact_count
-AmLaw 100 law firms,1,Kirkland & Ellis,Combined (Hub-and-Spoke),kirkland.com,0
-AmLaw 100 law firms,2,Latham & Watkins,Combined (Hub-and-Spoke),lw.com,0
-AmLaw 100 law firms,3,DLA Piper,Combined (Hub-and-Spoke),dlapiper.com,0
-AmLaw 100 law firms,4,"Gibson, Dunn & Crutcher",Partner/Lawyer-Led,gibsondunn.com,0
-AmLaw 100 law firms,5,"Skadden, Arps, Slate, Meagher & Flom",Combined (Hub-and-Spoke),skadden.com,0
-AmLaw 100 law firms,6,Sidley Austin,Combined (Hub-and-Spoke),sidley.com,0
-AmLaw 100 law firms,7,Ropes & Gray,Central Team,ropesgray.com,0
-AmLaw 100 law firms,8,Baker McKenzie,Combined (Hub-and-Spoke),bakermckenzie.com,0
-AmLaw 100 law firms,9,White & Case,Combined (Hub-and-Spoke),whitecase.com,0
-AmLaw 100 law firms,10,Simpson Thacher & Bartlett,Partner/Lawyer-Led,stblaw.com,0
-AmLaw 100 law firms,11,"Morgan, Lewis & Bockius",Combined (Hub-and-Spoke),morganlewis.com,0
-AmLaw 100 law firms,12,Hogan Lovells,Combined (Hub-and-Spoke),hoganlovells.com,0
-AmLaw 100 law firms,13,"Paul, Weiss, Rifkind, Wharton & Garrison",Partner/Lawyer-Led,paulweiss.com,0
-AmLaw 100 law firms,14,Davis Polk & Wardwell,Partner/Lawyer-Led,davispolk.com,0
+AmLaw 100 law firms,1,Kirkland & Ellis,Combined (Hub-and-Spoke),kirkland.com,104
+AmLaw 100 law firms,2,Latham & Watkins,Combined (Hub-and-Spoke),lw.com,53
+AmLaw 100 law firms,3,DLA Piper,Combined (Hub-and-Spoke),dlapiper.com,57
+AmLaw 100 law firms,4,"Gibson, Dunn & Crutcher",Partner/Lawyer-Led,gibsondunn.com,48
+AmLaw 100 law firms,5,"Skadden, Arps, Slate, Meagher & Flom",Combined (Hub-and-Spoke),skadden.com,14
+AmLaw 100 law firms,6,Sidley Austin,Combined (Hub-and-Spoke),sidley.com,35
+AmLaw 100 law firms,7,Ropes & Gray,Central Team,ropesgray.com,26
+AmLaw 100 law firms,8,Baker McKenzie,Combined (Hub-and-Spoke),bakermckenzie.com,23
+AmLaw 100 law firms,9,White & Case,Combined (Hub-and-Spoke),whitecase.com,26
+AmLaw 100 law firms,10,Simpson Thacher & Bartlett,Partner/Lawyer-Led,stblaw.com,18
+AmLaw 100 law firms,11,"Morgan, Lewis & Bockius",Combined (Hub-and-Spoke),morganlewis.com,23
+AmLaw 100 law firms,12,Hogan Lovells,Combined (Hub-and-Spoke),hoganlovells.com,10
+AmLaw 100 law firms,13,"Paul, Weiss, Rifkind, Wharton & Garrison",Partner/Lawyer-Led,paulweiss.com,15
+AmLaw 100 law firms,14,Davis Polk & Wardwell,Partner/Lawyer-Led,davispolk.com,13
 AmLaw 100 law firms,15,Jones Day,Combined (Hub-and-Spoke),jonesday.com,0
 AmLaw 100 law firms,16,McDermott Will & Emery,Central Team,mwe.com,0
 AmLaw 100 law firms,17,Greenberg Traurig,Combined (Hub-and-Spoke),gtlaw.com,0
@@ -24,7 +24,7 @@ AmLaw 100 law firms,22,Paul Hastings,Central Team,paulhastings.com,0
 AmLaw 100 law firms,23,King & Spalding,Central Team,kslaw.com,0
 AmLaw 100 law firms,24,Cooley,Industry Vertical,cooley.com,0
 AmLaw 100 law firms,25,Sullivan & Cromwell,Partner/Lawyer-Led,sullcrom.com,0
-AmLaw 100 law firms,26,Holland & Knight,Combined (Hub-and-Spoke),hklaw.com,0
+AmLaw 100 law firms,26,Holland & Knight,Combined (Hub-and-Spoke),hklaw.com,86
 AmLaw 100 law firms,27,Mayer Brown,Combined (Hub-and-Spoke),mayerbrown.com,0
 AmLaw 100 law firms,28,Milbank,Partner/Lawyer-Led,milbank.com,0
 AmLaw 100 law firms,29,"Weil, Gotshal & Manges",Partner/Lawyer-Led,weil.com,0
@@ -34,7 +34,7 @@ AmLaw 100 law firms,32,Cleary Gottlieb Steen & Hamilton,Partner/Lawyer-Led,clear
 AmLaw 100 law firms,33,Troutman Pepper Locke,Combined (Hub-and-Spoke),troutman.com,0
 AmLaw 100 law firms,34,"Orrick, Herrington & Sutcliffe",Industry Vertical,orrick.com,0
 AmLaw 100 law firms,35,Debevoise & Plimpton,Partner/Lawyer-Led,debevoise.com,0
-AmLaw 100 law firms,36,Akin Gump Strauss Hauer & Feld,Central Team,akingump.com,0
+AmLaw 100 law firms,36,Akin Gump Strauss Hauer & Feld,Central Team,akingump.com,24
 AmLaw 100 law firms,37,Wilson Sonsini Goodrich & Rosati,Industry Vertical,wsgr.com,0
 AmLaw 100 law firms,38,Wilmer Cutler Pickering Hale and Dorr,Central Team,wilmerhale.com,0
 AmLaw 100 law firms,39,Dechert,Central Team,dechert.com,0
